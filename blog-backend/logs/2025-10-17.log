@@ -1,0 +1,15 @@
+time="2025-10-17T16:43:32+08:00" level=info msg="Starting Blog Backend Application"
+time="2025-10-17T16:43:32+08:00" level=info msg="Database migration completed!"
+time="2025-10-17T16:43:36+08:00" level=error msg="Database connection is nil"
+time="2025-10-17T16:43:36+08:00" level=error msg="Failed to insert post: invalid db"
+time="2025-10-17T16:43:36+08:00" level=error msg="创建文章失败: invalid db"
+time="2025-10-17T16:51:07+08:00" level=info msg="Starting Blog Backend Application"
+time="2025-10-17T16:51:08+08:00" level=info msg="Database migration completed!"
+time="2025-10-17T16:51:13+08:00" level=debug msg="Inserting post into database" title="My First Blog Post" userID=1
+time="2025-10-17T16:51:13+08:00" level=info msg="Successfully inserted post into database" postID=2 title="My First Blog Post" userID=1
+time="2025-10-17T17:05:29+08:00" level=info msg="Starting Blog Backend Application"
+time="2025-10-17T17:05:29+08:00" level=info msg="Database migration completed!"
+time="2025-10-17T17:05:31+08:00" level=debug msg="Inserting post into database" title="My First Blog Post" userID=1
+time="2025-10-17T17:05:31+08:00" level=info msg="Successfully inserted post into database" postID=3 title="My First Blog Post" userID=1
+time="2025-10-17T17:35:49+08:00" level=info msg="Starting Blog Backend Application"
+time="2025-10-17T17:35:50+08:00" level=info msg="Database migration completed!"

@@ -1,0 +1,11 @@
+time="2025-10-20T11:07:33+08:00" level=info msg="Starting Blog Backend Application"
+time="2025-10-20T11:07:33+08:00" level=info msg="Database migration completed!"
+time="2025-10-20T11:07:46+08:00" level=error msg="Failed to insert user into database" email=testuser@example.com error="Error 1062 (23000): Duplicate entry 'testuser@example.com' for key 'users.idx_users_email'" password=tang123 username=tang
+time="2025-10-20T11:07:46+08:00" level=error msg="用户注册失败: Error 1062 (23000): Duplicate entry 'testuser@example.com' for key 'users.idx_users_email'"
+time="2025-10-20T11:08:18+08:00" level=info msg="用户登录成功: tang"
+time="2025-10-20T11:08:39+08:00" level=debug msg="Inserting post into database" title="My First Blog2 Post" userID=1
+time="2025-10-20T11:08:39+08:00" level=error msg="Failed to insert post into database" error="Error 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`blog`.`posts`, CONSTRAINT `fk_posts_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))" title="My First Blog2 Post" userID=1
+time="2025-10-20T11:11:35+08:00" level=info msg="Starting Blog Backend Application"
+time="2025-10-20T11:11:35+08:00" level=info msg="Database migration completed!"
+time="2025-10-20T11:11:38+08:00" level=debug msg="Inserting post into database" title="My First Blog2 Post" userID=14
+time="2025-10-20T11:11:38+08:00" level=info msg="Successfully inserted post into database" postID=11 title="My First Blog2 Post" userID=14

@@ -1,0 +1,17 @@
+system:
+  domain: mall
+  version: 1.0
+  env: "dev"
+  HttpPort: ":8080"
+  Host: "localhost"
+  UploadModel: "local"
+
+mysql:
+  default:
+    dialect: "mysql"
+    dbHost: "127.0.0.1"
+    dbPort: "3306"
+    dbName: "blog"
+    userName: "root"
+    password: "root"
+    charset: "utf8mb4"
